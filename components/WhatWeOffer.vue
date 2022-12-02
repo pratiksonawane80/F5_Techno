@@ -3,7 +3,7 @@
     <div class="what-offer font-bold text-center not-italic lg:pb-16">
       WHAT WE OFFER
     </div>
-    <div class="grid lg:grid-rows-3 grid-cols-0 grid-flow-col gap-16 overflow-y-scroll	">
+    <div class="grid lg:grid-rows-3 grid-cols-0 grid-flow-col gap-16 lg:overflow-y-hidden overflow-y-scroll	">
       <div class="relative text-center lg:flex justify-center items-center">
         <div class="icon-wrapper relative">
           <img

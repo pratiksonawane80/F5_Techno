@@ -1,6 +1,6 @@
 <template>
-  <div class="main-div bg-no-repeat bg-cover pt-32 pb-32">
-    <div class="float-left py-24 px-10 text-center">
+  <div class="main-div bg-no-repeat bg-cover pt-32 pb-32 lg:flex lg:justify-around">
+    <div class="py-24 px-10 text-center">
       <img src="../assets/images/Line 1.png" alt="horizontal-line" />
       <div class="font-bold text-4xl pt-10">WE HEAL YOU</div>
       <div class="font-medium text-xl naturally pt-10">NATURALLY</div>
@@ -11,89 +11,91 @@
       />
     </div>
 
-    <div class="flex flex-row flex-wrap justify-around">
-      <div>
-        <div class="square">
-          <img
-            class="image"
-            src="../assets/images/homeopathy-2@2x 1.png"
-            alt="green-shaded-background"
-          />
+    <div class="w-full">
+      <div class="lg:flex justify-around">
+        <div>
+          <div class="square m-auto">
+            <img
+              class="image"
+              src="../assets/images/homeopathy-2@2x 1.png"
+              alt="green-shaded-background"
+            />
+          </div>
+          <p class="text-center font-medium text-lg lg:pt-4 pb-4">Ayurveda</p>
         </div>
-        <p class="text-center font-medium text-lg pt-4">Ayurveda</p>
-      </div>
-      <div>
-        <div class="square">
-          <img
-            class="image"
-            src="../assets/images/pills 3.png"
-            alt="green-shaded-background"
-          />
+        <div>
+          <div class="square m-auto">
+            <img
+              class="image"
+              src="../assets/images/pills 3.png"
+              alt="green-shaded-background"
+            />
+          </div>
+          <p class="text-center font-medium text-lg lg:pt-4 pb-4">Homeopathy</p>
         </div>
-        <p class="text-center font-medium text-lg pt-4">Homeopathy</p>
-      </div>
-      <div>
-        <div class="square">
-          <img
-            class="image"
-            src="../assets/images/homeopathy-2@2x 1.png"
-            alt="green-shaded-background"
-          />
+        <div>
+          <div class="square m-auto">
+            <img
+              class="image"
+              src="../assets/images/homeopathy-2@2x 1.png"
+              alt="green-shaded-background"
+            />
+          </div>
+          <p class="text-center font-medium text-lg lg:pt-4 pb-4">Naturopathy</p>
         </div>
-        <p class="text-center font-medium text-lg pt-4">Naturopathy</p>
-      </div>
-      <div>
-        <div class="square">
-          <img
-            class="image"
-            src="../assets/images/pills 3.png"
-            alt="green-shaded-background"
-          />
+        <div>
+          <div class="square m-auto">
+            <img
+              class="image"
+              src="../assets/images/pills 3.png"
+              alt="green-shaded-background"
+            />
+          </div>
+          <p class="text-center font-medium text-lg lg:pt-4 pb-4">Yoga</p>
         </div>
-        <p class="text-center font-medium text-lg pt-4">Yoga</p>
       </div>
-    </div>
 
-    <div class="flex flex-row justify-around mt-10">
-      <div>
-        <div class="square">
-          <img
-            class="image"
-            src="../assets/images/homeopathy-2@2x 1.png"
-            alt="green-shaded-background"
-          />
+      <div class="lg:flex flex-row justify-around lg:mt-10">
+        <div>
+          <div class="square m-auto">
+            <img
+              class="image"
+              src="../assets/images/homeopathy-2@2x 1.png"
+              alt="green-shaded-background"
+            />
+          </div>
+          <p class="text-center font-medium text-lg lg:pt-4 pb-4">Meditation</p>
         </div>
-        <p class="text-center font-medium text-lg pt-4">Meditation</p>
-      </div>
-      <div>
-        <div class="square">
-          <img
-            class="image"
-            src="../assets/images/pills 3.png"
-            alt="green-shaded-background"
-          />
+        <div>
+          <div class="square m-auto">
+            <img
+              class="image"
+              src="../assets/images/pills 3.png"
+              alt="green-shaded-background"
+            />
+          </div>
+          <p class="text-center font-medium text-lg lg:pt-4 pb-4">Physiotherapy</p>
         </div>
-        <p class="text-center font-medium text-lg pt-4">Physiotherapy</p>
-      </div>
-      <div>
-        <div class="square">
-          <img
-            class="image"
-            src="../assets/images//homeopathy-2@2x 1.png"
-            alt="green-shaded-background"
-          />
+        <div>
+          <div class="square m-auto">
+            <img
+              class="image"
+              src="../assets/images//homeopathy-2@2x 1.png"
+              alt="green-shaded-background"
+            />
+          </div>
+          <p class="text-center font-medium text-lg lg:pt-4 pb-4">Nutrition</p>
         </div>
-        <p class="text-center font-medium text-lg pt-4">Nutrition</p>
-      </div>
-      <div>
-        <div class="square">
-          <img
-            class="image"
-            src="../assets/images/homeopathy-2@2x 1.png"
-            alt="green-shaded-background"
-          />
+        <div>
+          <div class="square m-auto">
+            <img
+              class="image"
+              src="../assets/images/homeopathy-2@2x 1.png"
+              alt="green-shaded-background"
+            />
+          </div>
+          <p class="text-center font-medium text-lg lg:pt-4 pb-4">Psychology</p>
         </div>
-        <p class="text-center font-medium text-lg pt-4">Psychology</p>
       </div>
     </div>
   </div>

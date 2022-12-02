@@ -5,7 +5,7 @@
     </div>
     <div class="lg:flex justify-around flex-row items-center flex-wrap">
       <div>
-        <div class="">
+        <div class="image">
           <div class="relative text-center text-white">
 			<div>
 				<img
@@ -30,7 +30,7 @@
               Direct Cost
             </div>
           </div>
-          <p class="text-center pt-4 text-lg font-normal">Healthcare & Medical Cost</p>
+          <div class="text-center pt-4 text-lg font-normal">Healthcare & Medical Cost</div>
         </div>
       </div>
       <div class="signs font-semibold text-3xl not-italic text-center">+</div>
@@ -57,7 +57,7 @@
             InDirect Cost
           </div>
         </div>
-        <p class="text-center pt-4 text-lg font-normal">Decrease quality of life, pain, <br /> anxiety, incovenience &</p>
+        <div class="text-center pt-4 text-lg font-normal">Decrease quality of life, pain, <br /> anxiety, incovenience &</div>
       </div>
       <div class="signs font-semibold text-3xl not-italic text-center">+</div>
       <div>
@@ -83,7 +83,7 @@
             Intangible Cost
           </div>
         </div>
-        <p class="text-center pt-4 text-lg font-normal">Decrease quality of life, <br /> pain, anxiety, <br /> incovenience &</p>
+        <div class="text-center pt-4 text-lg font-normal">Decrease quality of life, <br /> pain, anxiety, <br /> incovenience &</div>
       </div>
       <div class="signs font-semibold text-3xl not-italic text-center">=</div>
       <div >
@@ -109,7 +109,7 @@
             Total Cost
           </div>
         </div>
-        <p class="text-center pt-4 text-lg font-normal">Decrease quality of life, pain, <br /> anxiety, incovenience &</p>
+        <div class="text-center pt-4 text-lg font-normal">Decrease quality of life, pain, <br /> anxiety, incovenience &</div>
       </div>
     </div>
   </div>
@@ -144,7 +144,7 @@ export default {
   line-height: 22px;
 }
 
-.image ::after {
+/* .image ::after {
 	background: rgba(0 0 0 / 50%);
 	position: absolute;
 	width: 100%;
@@ -152,5 +152,5 @@ export default {
 	top: 0;
 	left: 0;
 	content: '';
-}
+} */
 </style>

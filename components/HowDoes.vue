@@ -45,7 +45,7 @@
           Lorem ipsum dolor sit amet, consectetur <br />
           adipiscing elit.
         </div>
-		<div class="mt-16">
+		<div class="lg:mt-16 mt-6 lg:p-0 p-10">
 			<Button />
 		</div>
       </div>
