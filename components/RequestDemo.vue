@@ -46,7 +46,7 @@
 export default {
   data() {
     return {
-      windowWidth: 1200,
+      windowWidth: 1501,
     }
   },
 

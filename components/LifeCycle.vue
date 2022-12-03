@@ -10,7 +10,7 @@
 			<div>
 				<img
 				class="rect relative"
-				src="../assets/images/Rectangle 9.png"
+				src="../assets/images/medicine.png"
 				alt="DirectCost"
 				/>
 			</div>
@@ -38,7 +38,7 @@
         <div class="relative text-center text-white">
           <img
             class="rect"
-            src="../assets/images/Rectangle 10.png"
+            src="../assets/images/med_in_hand.png"
             alt="IndirectCost"
           />
           <div
@@ -64,7 +64,7 @@
         <div class="relative text-center text-white">
           <img
             class="rect"
-            src="../assets/images/Rectangle 11.png"
+            src="../assets/images/med-store.png"
             alt="IntagibleCost"
           />
           <div
@@ -90,7 +90,7 @@
         <div class="relative text-center text-white">
           <img
             class="rect"
-            src="../assets/images/Rectangle 12.png"
+            src="../assets/images/money.png"
             alt="TotalCosr"
           />
           <div

@@ -59,7 +59,7 @@ export default {
 
   data() {
     return {
-      windowWidth: 0,
+      windowWidth: 1101,
     }
   },
 

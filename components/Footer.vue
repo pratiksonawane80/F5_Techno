@@ -1,6 +1,6 @@
 <template>
-	<div class="main-div lg:flex text-white justify-around">
-		<div class="text-white p-10">
+	<div class="main-div lg:flex text-white justify-around lg:text-left text-center">
+		<div class="text-white lg:p-10 p-4">
 			<div class="text-lg	font-extrabold	ml-6">Reach Out to Us</div>
 			<div class="text-lg	font-normal ml-6">Lorem epsum Pvt Ltd.</div>
 
@@ -43,7 +43,7 @@
 				<li>FAQs</li>
 				<li>Online Support</li>
 				<li>Customer Support</li>
-				<Button class="mt-10 request-btn" />
+				<li><Button class="mt-10" /></li>
 			</ul>
 		</div>
 
@@ -62,7 +62,7 @@
 export default {
 	name: "TheFooter"
 }
-</script>
+</script>	
 
 <style scoped>
 	.main-div {

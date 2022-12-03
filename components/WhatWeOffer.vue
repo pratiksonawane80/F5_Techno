@@ -3,8 +3,21 @@
     <div class="what-offer font-bold text-center not-italic lg:pb-16">
       WHAT WE OFFER
     </div>
-    <div class="grid lg:grid-rows-3 grid-cols-0 grid-flow-col gap-16 lg:overflow-y-hidden overflow-y-scroll	">
-      <div class="relative text-center lg:flex justify-center items-center">
+    <div
+      class="
+        grid
+        lg:grid-rows-3
+        grid-cols-0 grid-flow-col
+        gap-16
+        lg:overflow-y-hidden
+        overflow-y-scroll
+      "
+    >
+      <div
+        v-for="data in dataArr"
+        :key="data.image"
+        class="relative text-center lg:flex justify-center items-center"
+      >
         <div class="icon-wrapper relative">
           <img
             class="
@@ -14,192 +27,12 @@
               transform
               -translate-x-1/2 -translate-y-1/2
             "
-            src="../assets/images/goal 1.png"
+            :src="data.image"
             alt=""
           />
         </div>
         <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/goal 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/goal 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/pyramid@2x 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/pyramid@2x 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/doctor 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/doctor 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/pyramid@2x 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/goal 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/goal 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
-        </p>
-      </div>
-      <div class="relative text-center lg:flex justify-center items-center">
-        <div class="icon-wrapper relative">
-          <img
-            class="
-              absolute
-              top-1/2
-              left-1/2
-              transform
-              -translate-x-1/2 -translate-y-1/2
-            "
-            src="../assets/images/pyramid@2x 1.png"
-            alt=""
-          />
-        </div>
-        <p class="goal-text text-center mx-4 text-lg font-semibold">
-          Lorem ipsum
+          {{ data.text }}
         </p>
       </div>
     </div>
@@ -209,6 +42,60 @@
 <script>
 export default {
   name: 'WhatWeOffer',
+  data() {
+    return {
+      dataArr: [
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/524z6LWN/goal-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/524z6LWN/goal-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/524z6LWN/goal-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/t4JgK5HP/pyramid-2x-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/t4JgK5HP/pyramid-2x-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/Yqs7WBJG/doctor-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/Yqs7WBJG/doctor-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/t4JgK5HP/pyramid-2x-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/524z6LWN/goal-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/524z6LWN/goal-1.png',
+        },
+        {
+          text: 'Lorem ipsum',
+          image: 'https://i.postimg.cc/t4JgK5HP/pyramid-2x-1.png',
+        },
+      ],
+
+      // https://i.postimg.cc/524z6LWN/goal-1.png goal1
+      // https://i.postimg.cc/t4JgK5HP/pyramid-2x-1.png pyramid
+      // https://i.postimg.cc/Yqs7WBJG/doctor-1.png doctor
+    }
+  },
 }
 </script>
 
